@@ -4,6 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import autoMergeLevel2 from 'redux-persist/lib/stateReconciler/autoMergeLevel2';
 
 import signIn from './sign-in';
+import user from './user';
 import signOut from './sign-out';
 
 const rootPersistConfig = {
@@ -15,6 +16,7 @@ const rootPersistConfig = {
 
 const appReducer = combineReducers({
   signIn,
+  user,
   signOut
 });
 

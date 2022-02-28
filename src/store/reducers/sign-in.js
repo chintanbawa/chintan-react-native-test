@@ -2,8 +2,6 @@ import {action as actionCreator} from 'typesafe-actions';
 
 // Types
 export const Types = {
-  SEND_OTP: '@SIGN_IN/TYPES/SEND_OTP',
-  VERIFY_OTP: '@SIGN_IN/TYPES/VERIFY_OTP',
   SAVE_USER_RESPONSE: '@SIGN_IN/TYPES/SAVE_USER_RESPONSE',
   UPDATE_USER_INFO: '@SIGN_IN/TYPES/UPDATE_USER_INFO'
 };
